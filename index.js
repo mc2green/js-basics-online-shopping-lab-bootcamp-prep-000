@@ -25,8 +25,6 @@ var cart = [];
     var firstSentence = "In your cart, you have " + cart[0].itemName + " at $" + cart[0].itemPrice;
     var sentence = "";
     var sentence3 = "";
-    
-
     if (cart.length === 1){
       return firstSentence + ".";
     }
